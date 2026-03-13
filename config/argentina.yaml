@@ -1,0 +1,79 @@
+scenario:
+  name: "Flexibilización Laboral Argentina - Tipo Menem 1990s"
+  country: Argentina
+  cli_target: 0.89
+  simulation_rounds: 100
+  reform_trigger_round: 5
+  reform_type: adversarial
+  monte_carlo_seeds: [42, 179, 316, 453, 590]
+
+cli_weights:
+  veto_players: 0.30
+  judicial_review: 0.25
+  amendment_difficulty: 0.25
+  informal_norms: 0.20
+
+agents:
+  judges_csjn:
+    count: 5
+    cri: 0.78
+    institutional_capital: 0.90
+    actions: [SANCIONAR, REVERSAR, IMPUGNAR_CN]
+  legislators_oficialismo:
+    count: 130
+    cri: 0.30
+    institutional_capital: 0.40
+    party_discipline: 0.80
+    reform_preference: 0.70
+    actions: [REFORMAR, COALICIONAR]
+  legislators_oposicion:
+    count: 127
+    cri: 0.60
+    institutional_capital: 0.50
+    party_discipline: 0.70
+    reform_preference: 0.20
+    actions: [IMPUGNAR_CN, COALICIONAR]
+  unions:
+    - name: CGT
+      cri: 0.85
+      institutional_capital: 0.80
+      coalition_capacity: 0.95
+      strike_capacity: 0.90
+      legal_resources: 0.85
+      actions: [COALICIONAR, LITIGAR, EVADIR]
+    - name: CTA
+      cri: 0.80
+      institutional_capital: 0.70
+      coalition_capacity: 0.85
+      strike_capacity: 0.80
+      legal_resources: 0.75
+      actions: [COALICIONAR, LITIGAR, EVADIR]
+    - name: Sectorial
+      cri: 0.75
+      institutional_capital: 0.60
+      coalition_capacity: 0.70
+      actions: [COALICIONAR, LITIGAR, EVADIR]
+  regulated_firms:
+    count: 50
+    cri: 0.20
+    institutional_capital: 0.30
+    capture_capacity: 0.40
+    actions: [CUMPLIR, EVADIR, LITIGAR, CAPTURAR]
+  citizens:
+    count: 500
+    cri: 0.15
+    institutional_capital: 0.10
+    coalition_capacity: 0.20
+    actions: [CUMPLIR, EVADIR]
+  regulator:
+    count: 1
+    cri: 0.40
+    institutional_capital: 0.60
+    capture_vulnerability: 0.50
+    actions: [SANCIONAR]
+
+validation_criteria:
+  cli_range: [0.80, 0.98]
+  min_block_rate: 0.70
+  min_union_coalition_litigate: 0.50
+  max_cli_error: 0.05

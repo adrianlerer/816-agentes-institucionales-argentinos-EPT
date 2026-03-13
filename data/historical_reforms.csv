@@ -1,0 +1,24 @@
+reform_id,year,government,reform_name,legal_instrument,scope,legislative_outcome,judicial_outcome,union_response,implementation_status,final_outcome,time_to_reversal_months
+1,1974,Perón/Isabel,Ley de Contrato de Trabajo 20744,Ley nacional,Amplio,Aprobado,Constitucional,Apoyo parcial,Implementado,implemented,
+2,1976,Videla (de facto),Decreto-Ley 21297 reforma LCT,Decreto-Ley,Amplio,Impuesto,No revisado,Resistencia pasiva,Implementado parcialmente,partial,
+3,1979,Videla (de facto),Ley 22105 supresión gremios,Ley (de facto),Amplio,Impuesto,No revisado,Resistencia activa,Implementado parcialmente,partial,
+4,1984,Alfonsín,Ley 23041 remuneraciones sector público,Ley nacional,Sectorial,Aprobado,Constitucional,Apoyo,Implementado,implemented,
+5,1988,Alfonsín,Ley 23546 negociación colectiva,Ley nacional,Amplio,Aprobado,Constitucional,Apoyo CGT,Implementado,implemented,
+6,1990,Menem,Decreto 1334/90 flexibilización salarial,Decreto ejecutivo,Amplio,Resistido,Impugnado CSJN,Huelga general CGT,Parcialmente revertido,reversed,18
+7,1991,Menem,Ley 24013 Empleo,Ley nacional,Amplio,Aprobado con modificaciones,Constitucional,Resistencia CTA,Implementado parcialmente,partial,
+8,1993,Menem,Decreto 470/93 contratos flexibles,Decreto ejecutivo,Sectorial,Resistido en Congreso,Impugnado,Huelga CGT,Revertido,reversed,12
+9,1995,Menem,Ley 24465 modalidades contractuales,Ley nacional,Amplio,Aprobado,Cuestionado,Huelga general,Implementado con recortes,partial,
+10,1996,Menem,Decreto 1111/96 period. prueba,Decreto ejecutivo,Amplio,Rechazado Senado,Impugnado,Movilización masiva,Bloqueado,blocked,
+11,1998,Menem,Ley 25013 reforma laboral,Ley nacional,Amplio,Aprobado modificado,Constitucional,Resistencia CTA+CGT,Implementado parcialmente,partial,24
+12,2000,De la Rúa,Ley 25250 reforma laboral (Trabajazo),Ley nacional,Amplio,Aprobado (con escándalo sobornos),Constitucional,Huelga general CTA,Revertido,reversed,14
+13,2001,De la Rúa,Decreto 1396/01 reducción salarial,Decreto ejecutivo,Sectorial,Resistido,Impugnado,Huelga general,Revertido por crisis,reversed,3
+14,2004,Kirchner,Ley 25877 ordenamiento laboral,Ley nacional,Amplio,Aprobado,Constitucional,Apoyo CGT,Implementado,implemented,
+15,2006,Kirchner,Ley 26088 tercerización,Ley nacional,Sectorial,Aprobado,Constitucional,Apoyo parcial,Implementado,implemented,
+16,2008,Fernández,Ley 26390 prohibición trabajo infantil,Ley nacional,Sectorial,Aprobado,Constitucional,Apoyo,Implementado,implemented,
+17,2011,Fernández,Decreto 1694/09 (ampliado) ART,Decreto ejecutivo,Sectorial,Sin resistencia legislativa,Constitucional,Neutro,Implementado,implemented,
+18,2013,Fernández,Ley 26940 PYMES empleo,Ley nacional,Sectorial,Aprobado,Constitucional,Resistencia moderada,Implementado parcialmente,partial,
+19,2017,Macri,Reforma previsional (jubilaciones),Ley nacional,Sectorial,Aprobado bajo represión,Impugnado CSJN,Huelga general+movilización,Implementado con conflicto,partial,36
+20,2018,Macri,Intento reforma laboral amplia,Proyecto de ley,Amplio,Retirado por presión,N/A,Huelga general CGT+CTA,Bloqueado,blocked,
+21,2020,Fernández A.,Ley 27555 teletrabajo,Ley nacional,Sectorial,Aprobado,Constitucional,Apoyo CTA,Implementado,implemented,
+22,2022,Fernández A.,Intento reforma sindical,Proyecto de ley,Amplio,Retirado,N/A,Rechazo CGT masivo,Bloqueado,blocked,
+23,2024,Milei,DNU 70/2023 reforma laboral (RIGI),Decreto de Necesidad y Urgencia,Amplio,Impugnado en Congreso,Cautelar CSJN,Huelga general CGT (24hs),Parcialmente suspendido,reversed,8
